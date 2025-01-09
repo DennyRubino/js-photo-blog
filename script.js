@@ -1,4 +1,4 @@
-
+//iD Element
 const imgCard = document.getElementById('img-gallery');
 
 // Funzione per generare immagini
@@ -10,14 +10,13 @@ const imgGenerator = () => {
             imgCard.innerHTML = "";
 
             res.data.forEach((img) => {
-                
+                //Funzione per creare la card con la responsive  
                 const col = document.createElement('div');
                 col.className = 'col-sm-12 col-md-6 col-lg-4 ';
-
                 col.innerHTML = `
                 <img src="img/pin.svg" class="move-pin " style="top: 5%; left: 45%;  height:10%" ">
                 <div class="card custom-card position-relative">             
-                            <img src="${img.url}" class="card-img-top" ">
+                            <img src="${img.url}" class="card-img-top">
                             <div class="card-body custom-card-body">
                                 <p>Lorem ipsum</p>
                         </div>
@@ -29,5 +28,5 @@ const imgGenerator = () => {
         
 };
 
-
+//Generazione delle card
 imgGenerator();

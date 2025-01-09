@@ -1,3 +1,4 @@
+/*Tipografia*/
 body {
     font-family: "Edu TAS Beginner", serif;
   font-optical-sizing: auto;
@@ -6,19 +7,18 @@ body {
   font-size: 22px;
   background-image:url(img/cork.png) ;
 }
-
+/*Header*/
 header {
     background-image:url(img/wall.png);
     height: 150px;
     max-width: 100%;
-
 }
 .header-container{
     height: 100%;
     width: 100%;
     text-align: center;
 }
-
+/*Main*/
 h1{
     font-size: 60px;
     font-weight: 800;
@@ -39,6 +39,7 @@ h1{
     width: 100%; 
     height: auto; 
     padding: 20px;
+   
 }
 
 .move-pin{
@@ -47,4 +48,12 @@ h1{
     top: 4%;
     z-index: 10;
 
+}
+
+.card{
+    transition: transform 0.3s ease; /
+}
+
+.card:hover {
+    transform: rotate(15deg); 
 }
