@@ -1,6 +1,9 @@
 // iD Element
 const imgCardElm = document.getElementById('img-gallery');
 const titleElm = document.getElementById("title");
+const overlayElm = document.getElementById("overlay");
+const overlayImageElm = document.getElementById("overlay-image");
+const closeButtonElm = document.getElementById("close-btn");
 
 // Funzione per generare immagini e titolo
 const imgGenerator = () => {
