@@ -69,6 +69,11 @@ h1{
     height: 100%;
     z-index: 20;
     background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+}
+
+.hidden{
+    display: none;
 }
 
 .overlay-content {
@@ -87,5 +92,8 @@ h1{
 .btn{
     padding: 10px 20px;
     font-size: 24px;
+}
 
+.tick {
+    cursor: pointer;
 }
