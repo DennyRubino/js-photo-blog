@@ -26,11 +26,18 @@ const imgGenerator = () => {
                     </div>
                 </div>
                 `;
+            //Funzione per mostrare l'immagine 
+                const cardImgTop = col.querySelector('.card-img-top');
+                cardImgTop.addEventListener("click", () => {
+                    showOverlay(img.url);
+                }); //console.log(cardImgTop)
+                
 
                 imgCardElm.appendChild(col);
             });
         });
 };
+
 
 
 
