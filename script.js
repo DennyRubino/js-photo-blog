@@ -38,6 +38,11 @@ const imgGenerator = () => {
         });
 };
 
+//Funzione per mostrare l'overlay
+const showOverlay = (imageSrc) => {
+    overlayImageElm.src = imageSrc;
+    overlayElm.classList.remove("hidden"); 
+};
 
 
 
