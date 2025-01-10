@@ -43,6 +43,12 @@ const showOverlay = (imageSrc) => {
     overlayImageElm.src = imageSrc;
     overlayElm.classList.remove("hidden"); 
 };
+//Funzione per nascondere l'overlay
+const hideOverlay = () => {
+    overlayElm.classList.add("hidden"); 
+};
+
+closeButtonElm.addEventListener("click", hideOverlay);
 
 
 
