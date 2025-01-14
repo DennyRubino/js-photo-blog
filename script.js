@@ -22,7 +22,7 @@ const imgGenerator = () => {
                 <div class="card custom-card position-relative">             
                     <img src="${img.url}" class="card-img-top">
                     <div class="card-body custom-card-body">
-                        <p class="card-titleElm text-center">${img.title}</p>
+                        <p class="text-center">${img.title}</p>
                     </div>
                 </div>
                 `;
